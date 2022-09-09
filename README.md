@@ -2,7 +2,7 @@
 
 ![Banner promocional do curso tctw](https://media-exp1.licdn.com/dms/image/C4D16AQGgyKhIaYJ7xg/profile-displaybackgroundimage-shrink_200_800/0/1661519603877?e=2147483647&v=beta&t=YQ-ctsst3wTiUSvGPEwDqkn1shsHwjUhRV3kMe3pTDg) 
 
-Esse é o resultado do **exercício** proposto no **[curso TCTW](https://marimoreiratw.com.br/curso-tctw)**
+Esse é o [resultado do **exercício**](https://github.com/Angel-Oliveira/tctw/tree/main/TCTW) proposto no **[curso TCTW](https://marimoreiratw.com.br/curso-tctw)**
 
 Nele, coloquei em prática alguns pontos:
 
