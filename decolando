@@ -1,0 +1,78 @@
+
+# Criar registro de compra para um pet
+
+Aprenda como criar um registro de compra para adicionar novos códigos de pets ao seu estoque.
+
+## Índice
+
+[Visão Geral](#visão-geral)
+
+[1. Criar um pet](#criar-um-pet)
+
+[2. Criar um registro de compra](#2-criar-um-registro-de-compra)
+
+## Visão Geral
+_________
+
+Através do nosso sistema é possível **registrar todas as compras** de pets que o seu petshop realizar, para que eles sejam adicionados como itens disponíveis no estoque. 
+
+Para isso, siga os seguintes passos:
+
+1. Criar o tipo de pet a ser comprado (opcional, caso ainda não exista).
+
+2. Criar o registro de compra, incluindo o pet anteriormente criado
+
+## 1. Criar um pet
+_________________
+
+O pet é um **requisito obrigatório** para a criação do registro de compra, portanto deve ser criado de antemão. 
+
+Para criar um novo pet, chame `POST/pet`, com o body da requisição contendo as informações do pet. 
+
+Veja um exemplo:
+
+```
+{
+
+exemplo de código
+
+}
+
+```
+
+> Caso o valor do ID do pet seja igual a zero, o sistema irá automaticamente gerar um `ID`auto incremental. 
+
+A resposta de código `200 ok`indica que a criação do pet foi feita com sucesso e retorna JSON com as informações do pet recém criado, incluindo seu novo `ID`. Por exemplo:
+
+``` json
+{
+
+trecho do código que está na mesma cor que o seu fundo de tela, por isso você não vê
+
+}
+```
+## 2. Criar um registro de compra
+___________
+Com o `ID` do pet em mãos, podemos **criar um registro de compra** para o mesmo, e dessa forma, adicioná-lo ao estoque do pet shop. 
+
+Para criar um registro de compra, chame `POST/store/order`, com o corpo da requisição contendo o `ID` do pet a ser comprado e a quantidade. Por exemplo:
+
+```
+
+outro exemplo de código
+
+```
+
+A resposta de código `200 ok`indica que a criação do registro de compra foi executada com sucesso e retorna um JSON com as informações do registro de compra recém criado, incluindo o seu `ID`. Por exemplo:
+
+```
+
+maaais códigoooo
+
+```
+## Ajuda
+
+Tem dúvidas de onde estudar documentação de APIs? Então visite o [Decolando em TW](https://marimoreiratw.com.br/decolando-em-tw/) e saiba tudo o que precisa pra dominar esse universo. 
+
+>**Outras dúvidas: 42**
+
